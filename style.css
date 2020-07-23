@@ -1,0 +1,61 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-image: url("evgeni-tcherkasski-SHA85I0G8K4-unsplash (3).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    display: inline;
+    font-size: 20px;
+    padding: 15px;
+}
+h5 {
+    margin-bottom: 3px;
+}
+button {
+    float: right;
+    display: inline;
+    background: transparent;
+    padding: 15px;
+    border-style: none;
+    color: white;
+    font-size: 17px;
+}
+form {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    border-radius: 5px;
+}
+.parent {
+    padding: 25px;
+}
+input {
+    height: 35px;
+    width: 300px;
+    padding: 10px;
+}
+select {
+    height: 35px;
+    width: 300px;
+}
+.submits {
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    float: right;
+    background-color: #ff4d4d;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+}
+h1:hover {
+    cursor: crosshair;
+}
+button:hover {
+    cursor: pointer;
+    background-color: black;
+}
